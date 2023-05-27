@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s dotglob nullglob; a=(*/); echo "${#a[@]}"
+find . -type d | wc -l
