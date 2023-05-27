@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | grep -v '^\./\?$' | sort -df | paste -s -d ',' -
+ls -m
