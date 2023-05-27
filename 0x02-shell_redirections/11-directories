@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir $(seq 1 10)
+shopt -s dotglob nullglob; a=(*/); echo "${#a[@]}"
